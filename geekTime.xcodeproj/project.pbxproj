@@ -40,6 +40,9 @@
 		ACAE9C46269AE510000A52C4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE9C45269AE510000A52C4 /* UIColorExtension.swift */; };
 		ACAE9C48269AE7AB000A52C4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE9C47269AE7AB000A52C4 /* BaseViewController.swift */; };
 		ACAE9C4A269AE870000A52C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE9C49269AE870000A52C4 /* LoginViewController.swift */; };
+		ACAE9C4C269B0E89000A52C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE9C4B269B0E89000A52C4 /* HomeViewController.swift */; };
+		ACAE9C4E269B0E9E000A52C4 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE9C4D269B0E9E000A52C4 /* MineViewController.swift */; };
+		ACAE9C51269B14E4000A52C4 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE9C50269B14E4000A52C4 /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +82,9 @@
 		ACAE9C45269AE510000A52C4 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		ACAE9C47269AE7AB000A52C4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		ACAE9C49269AE870000A52C4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACAE9C4B269B0E89000A52C4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ACAE9C4D269B0E9E000A52C4 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		ACAE9C50269B14E4000A52C4 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		D21C65891B655D81AA6F2319 /* Pods_geekTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geekTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +129,7 @@
 		ACAE9BFC269AD212000A52C4 /* geekTime */ = {
 			isa = PBXGroup;
 			children = (
+				ACAE9C4F269B14BB000A52C4 /* Component */,
 				ACAE9C44269AE4F8000A52C4 /* Extensions */,
 				ACAE9C3D269ADA15000A52C4 /* Model */,
 				ACAE9C12269AD703000A52C4 /* Resource */,
@@ -136,6 +143,8 @@
 				ACAE9C0B269AD216000A52C4 /* Info.plist */,
 				ACAE9C47269AE7AB000A52C4 /* BaseViewController.swift */,
 				ACAE9C49269AE870000A52C4 /* LoginViewController.swift */,
+				ACAE9C4B269B0E89000A52C4 /* HomeViewController.swift */,
+				ACAE9C4D269B0E9E000A52C4 /* MineViewController.swift */,
 			);
 			path = geekTime;
 			sourceTree = "<group>";
@@ -182,6 +191,14 @@
 				ACAE9C45269AE510000A52C4 /* UIColorExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ACAE9C4F269B14BB000A52C4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE9C50269B14E4000A52C4 /* BannerView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		F32BCA22399F8D62A543B2A8 /* Pods */ = {
@@ -353,9 +370,12 @@
 				ACAE9C3F269ADA39000A52C4 /* Product.swift in Sources */,
 				ACAE9C48269AE7AB000A52C4 /* BaseViewController.swift in Sources */,
 				ACAE9C00269AD212000A52C4 /* SceneDelegate.swift in Sources */,
+				ACAE9C4C269B0E89000A52C4 /* HomeViewController.swift in Sources */,
 				ACAE9C3C269AD90B000A52C4 /* R.generated.swift in Sources */,
 				ACAE9C4A269AE870000A52C4 /* LoginViewController.swift in Sources */,
+				ACAE9C51269B14E4000A52C4 /* BannerView.swift in Sources */,
 				ACAE9C43269ADB3E000A52C4 /* FakeData.swift in Sources */,
+				ACAE9C4E269B0E9E000A52C4 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
